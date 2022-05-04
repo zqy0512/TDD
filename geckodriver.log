@@ -1,0 +1,3 @@
+1651631462225	geckodriver	INFO	Listening on 127.0.0.1:50861
+1651631462334	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50862" "-foreground" "-no-remote" "-profile" "/var/folders/yg/9pgl_h_x7y74k2x5zt355vqw0000gn/T/rust_mozprofilexCwmRV"
+1651631463400	Marionette	INFO	Marionette enabled
