@@ -1,0 +1,11 @@
+[Unit]
+Description=Gunicorn server for 39.101.173.59
+
+[Service]
+Restart=on-failure
+User=zqy
+WorkingDirectory=/home/zqy/sites/39.101.173.59/source
+ExecStart=/home/zqy/sites/39.101.173.59/virtualenv/bin/gunicorn --bind unix:/tmp/39.101.173.59.socket superlists.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
